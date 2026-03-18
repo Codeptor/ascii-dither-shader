@@ -1,6 +1,6 @@
 # ascii-dither-shader
 
-A comprehensive Claude Code skill for creating ASCII art renderers, dithering effects, halftone patterns, and character-based shader components over images and videos.
+A comprehensive AI agent skill for creating ASCII art renderers, dithering effects, halftone patterns, and character-based shader components over images and videos. Works with any AI agent or coding assistant — not limited to any specific platform.
 
 **8,554 lines | 284KB** of self-contained, production-ready reference material — every algorithm, mathematical derivation, and implementation an AI agent needs to produce stunning ASCII/dither visuals.
 
@@ -101,16 +101,21 @@ Grounded in peer-reviewed papers:
 - Coumar & Kingston (2025) — [ML-based ASCII art evaluation](https://arxiv.org/abs/2503.14375)
 - McEwan et al. (2012) — [Efficient GLSL noise](https://arxiv.org/abs/1204.1461)
 
-## Installation
+## Usage
 
-This is a [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill. To use it:
+This is a self-contained knowledge base that any AI agent or coding assistant can use as context for generating ASCII/dither visuals. It works with Claude Code, Cursor, Windsurf, Copilot, or any agent that supports skill/reference files.
 
-1. Clone this repo into your Claude Code skills directory:
-   ```bash
-   git clone https://github.com/codeptor/ascii-dither-shader.git ~/.claude/skills/ascii-dither-shader
-   ```
+### Claude Code
+```bash
+git clone https://github.com/codeptor/ascii-dither-shader.git ~/.claude/skills/ascii-dither-shader
+```
+Auto-triggers when you ask for ASCII art, dithering, halftone, or character-based rendering.
 
-2. The skill auto-triggers when you ask Claude to create ASCII art, dithering effects, halftone patterns, or any character-based visual rendering.
+### Any AI Agent
+Feed the relevant reference files as context when prompting for ASCII/dither work. Start with `SKILL.md` for the decision tree, then load the specific reference file you need.
+
+### Direct Reference
+The markdown files are human-readable too — use them as a technical reference for implementing dithering algorithms, shader effects, or ASCII rendering in any language.
 
 ## License
 
