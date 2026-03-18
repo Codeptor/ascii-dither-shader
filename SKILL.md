@@ -1,5 +1,6 @@
 ---
 name: ascii-dither-shader
+license: MIT
 description: >
   Comprehensive engine for creating ASCII art renderers, dithering effects, halftone patterns,
   and character-based shader components over user-provided images and videos. Contains every
