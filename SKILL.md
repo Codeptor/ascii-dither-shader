@@ -2,19 +2,14 @@
 name: ascii-dither-shader
 license: MIT
 description: >
-  Comprehensive engine for creating ASCII art renderers, dithering effects, halftone patterns,
-  and character-based shader components over user-provided images and videos. Contains every
-  algorithm, mathematical derivation, color science formula, performance technique, and visual
-  effect needed to build production-quality ASCII/dither visuals. Use this skill when the user
-  wants to: convert images or video to ASCII art, apply dithering (Floyd-Steinberg, Bayer,
-  Atkinson, blue noise, Riemersma, Stucki, Sierra, JJN, ordered, stochastic), create halftone
-  dot patterns, build retro/CRT/terminal visual effects, render braille or block character art,
-  write WebGL dithering shaders, implement error diffusion, create scanline or phosphor glow
-  effects, do color quantization, or any character-grid/quantized/stippled visual output for
-  web or video. Triggers on: ASCII, dither, halftone, error diffusion, threshold map, character
-  art, text art, terminal aesthetic, retro rendering, pixel quantization, stippling, blue noise,
-  Bayer matrix, Floyd-Steinberg, ordered dithering, braille rendering, CRT effect, scanline,
-  phosphor glow, image-to-text, video-to-ASCII, canvas shader, dot pattern, mosaic.
+  Complete engine for ASCII art, dithering, halftone, and character-based shaders over images
+  and videos. 14 algorithms (Floyd-Steinberg, Bayer, Atkinson, blue noise, Riemersma, Stucki,
+  Sierra, JJN), 40+ charsets, 9 art styles, WebGL/WGSL/GLSL shaders, CRT/bloom/glitch effects,
+  color science (OKLAB), video pipeline, React components. Use when converting images or video
+  to ASCII, applying dithering or halftone effects, building retro/CRT/terminal visuals, writing
+  GPU dithering shaders, rendering braille or block characters, or any character-grid visual.
+  Triggers on: ASCII, dither, halftone, error diffusion, character art, text art, retro rendering,
+  stippling, blue noise, Bayer, braille, CRT, scanline, image-to-text, video-to-ASCII, mosaic.
 ---
 
 # ASCII / Dither / Shader Engine
